@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  encapsulation: ViewEncapsulation.Emulated // none, native(no esta)
 })
 export class AppComponent {
   serverElements = [{type:'server', name:'Testserver', content:'Just a test!'}];
@@ -21,7 +22,11 @@ export class AppComponent {
       type: 'blueprint',
       name: bluePrintData.serverName,
       content: bluePrintData.serverContent
-   });
+    });
+   }
+  
+  onChangeFirst () {
+    this.serverElements[0].name ='Changed!';
+   }
   }
-  }
-
+  
