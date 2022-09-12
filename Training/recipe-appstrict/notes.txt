@@ -1,5 +1,11 @@
 8-9-2022.
-corrigiendo Secc 6 de recepie-app (90.)
+#corrigiendo Secc 6 de recepie-app (90.)
 
  const ingName = this.nameInputRef.nativeElement.value; (value --< no name)
+
+ secc 10 -121 finish pushing data from A to B
+ #sec 10 finish 
+ copiando x error de amange reipe btn, no deplegaba.
+ reaciendo seccion 10.-
+ 
  
