@@ -1,2 +1,5 @@
 11/9/22
 Routing app
+
+15/09/22
+ng g c page-not-found (pagina de errores)
