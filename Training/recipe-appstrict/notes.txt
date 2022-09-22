@@ -7,5 +7,9 @@
  #sec 10 finish 
  copiando x error de amange reipe btn, no deplegaba.
  reaciendo seccion 10.-
+
+ 22/9 seccion 12:
+ error no despliega detail component. ver.
+
  
  
