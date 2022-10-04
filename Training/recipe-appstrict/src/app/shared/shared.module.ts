@@ -6,12 +6,14 @@ import { LoadingSpinnerComponent } from './loading-spinner/loadng-spinner.compon
 import { PlaceholderDirective } from './placeholder/placeholder.directive';
 import { DropdownDirective } from './dropdown.directive';
 
+
 @NgModule({
   declarations:[
     AlertComponent,
     LoadingSpinnerComponent,
     PlaceholderDirective,
-    DropdownDirective
+    DropdownDirective,
+  
   ],
   imports: [CommonModule],
   exports: [
