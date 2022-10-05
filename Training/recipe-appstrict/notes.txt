@@ -11,5 +11,8 @@
  22/9 seccion 12:
  error no despliega detail component. ver.
 
+ direccion url
  
- 
+ https://ng-course-recipe-book-4468e.web.app/auth
+
+ user
